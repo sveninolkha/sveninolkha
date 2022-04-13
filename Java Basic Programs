@@ -1,0 +1,37 @@
+class xyz
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Enter two numbers: ");
+        int one = 10;
+        int two = 20;
+        System.out.println(one + " " + two);
+        int sum = one + two;
+        System.out.println("The sum is: " + sum);
+        int sub = one - two;
+        System.out.println("The Subtraction is: " + sub);
+        int product = one * two;
+        System.out.println("The product is: " + product);
+        int num = 45;
+        boolean flag = false;
+        for (int i = 2; i <= num / 2; ++i) 
+        {
+            if (num % i == 0)
+            {
+                flag = true;
+                break;
+            }
+            
+        }
+        if (!flag)
+        {
+            System.out.println(num + " is a prime number.");
+        }
+        else
+        {
+            System.out.println(num + " is not a prime number.");
+        }
+        
+    }
+    
+}
